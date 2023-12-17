@@ -21,22 +21,22 @@ class AkunSeeder extends Seeder
                 'name' => 'AkunAdmin',
                 'email' => 'admin@gmail.com',
                 'level' => 'admin',
-                'password' => Hash::make('123456')
+                'password' => Hash::make('12345678')
             ],
 
             [
-                'username' => 'user1',
-                'name' => 'AkunUser1',
+                'username' => 'Admin1',
+                'name' => 'AkunAdmin1',
                 'email' => 'user1@gmail.com',
                 'level' => 'user',
-                'password' => Hash::make('123456')
+                'password' => Hash::make('12345678')
             ],
             [
-                'username' => 'user2',
-                'name' => 'AkunUser2',
+                'username' => 'Admin2',
+                'name' => 'AkunAdmin2',
                 'email' => 'user2@gmail.com',
                 'level' => 'user',
-                'password' => Hash::make('123456')
+                'password' => Hash::make('12345678')
             ],
 
         ];
